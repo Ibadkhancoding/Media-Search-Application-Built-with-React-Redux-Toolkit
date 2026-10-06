@@ -19,7 +19,7 @@ MediaSearch lets you search for photos, videos, and GIFs in one place. You can a
 
 * React
 * Redux Toolkit
-* React Router Dom
+* React Router DOM
 * Axios
 * Tailwind CSS
 * Vite
@@ -64,6 +64,6 @@ This project helped me get more comfortable with **Redux Toolkit, API integratio
 
 ---
 
-[Live Demo](https://media-search-application-built-with.vercel.app/) {:target="_blank"}
+[Live Demo](https://media-search-application-built-with.vercel.app/)
 
 Built by **Muhammad Ibad Khan**
