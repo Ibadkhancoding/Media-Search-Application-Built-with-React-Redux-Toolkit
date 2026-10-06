@@ -86,7 +86,7 @@ const ResultGrid = () => {
 
   if (loading)
     return (
-      <h1 className='text-xl sm:text-2xl font-semibold text-center mt-20 sm:mt-30 text-(--c4)'>
+      <h1 className='text-xl sm:text-2xl font-semibold text-center mt-40 text-(--c4)'>
         Loading...
       </h1>
     )
