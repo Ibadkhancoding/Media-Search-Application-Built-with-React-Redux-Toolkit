@@ -64,6 +64,8 @@ This project helped me get more comfortable with **Redux Toolkit, API integratio
 
 ---
 
-[Live Demo](https://media-search-application-built-with.vercel.app/)
+<a href="https://media-search-application-built-with.vercel.app/" target="_blank">
+  🚀 Live Demo
+</a>
 
 Built by **Muhammad Ibad Khan**
