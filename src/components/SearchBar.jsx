@@ -14,7 +14,7 @@ const SearchBar = () => {
   }
 
   return (
-    <div className="px-4 sm:px-8 lg:px-12 py-8 sm:py-12 bg-(--c4)">
+    <div className="px-5 sm:px-8 lg:px-12 py-6 sm:py-10 bg-(--c4)">
 
       <form
         onSubmit={submitHandler}

@@ -1,16 +1,67 @@
-# React + Vite
+# MediaSearch
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple media search application built with **React** and **Redux Toolkit**.
 
-Currently, two official plugins are available:
+MediaSearch lets you search for photos, videos, and GIFs in one place. You can also save your favorite results to a personal collection.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+* Search for photos, videos, and GIFs
+* Uses Unsplash, Pexels, and Giphy APIs
+* Save media to a collection
+* Remove individual items or clear the collection
+* Responsive UI
+* Lazy loading for images
+* Redux Toolkit for state management
+* API loading and error states
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+* React
+* Redux Toolkit
+* React Router Dom
+* Axios
+* Tailwind CSS
+* Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## APIs
+
+* [Unsplash](https://unsplash.com/developers)
+* [Pexels](https://www.pexels.com/api/)
+* [Giphy](https://developers.giphy.com/)
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Ibadkhancoding/Media-Search-Application-Built-with-React-Redux-Toolkit.git
+```
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+Create a `.env` file and add your API keys:
+
+```env
+VITE_UNSPLASH_KEY=your_key
+VITE_PEXELS_KEY=your_key
+VITE_GIPHY_KEY=your_key
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## What I Learned
+
+This project helped me get more comfortable with **Redux Toolkit, API integration, async requests, React Router, and handling different types of API data** in a single application.
+
+---
+
+Built by **Muhammad Ibad Khan**
